@@ -28,4 +28,4 @@ After preparing the data, we randomly separate the dataset to training data and 
 
 hyperparameters
 
-## Experiment results
+## Results
