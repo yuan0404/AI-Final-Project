@@ -35,7 +35,7 @@ hyperparameters
 ## Results
 We are going to analyze the result from several different points of view. 
 
-First, these are the RMSE, R2 score and accuracy result of decision tree, random forest and gradient boosting. By comparing these data, we can see that the gradient boosting algorithm performs the best among the three algorithms, the random forest comes in second, and the decision tree is the worst. This conforms to our expectation. It is worth mentioning that the gradient boosting and the random forest algorithm has a similar result in R2 score but an obvious difference in accuracy. A reasonable explanation of this phenomenon is that we only have 50 trees in both two methods, if there are more trees, the difference will be more obvious.
+First, these are the RMSE, R<sup>2</sup> score and accuracy result of decision tree, random forest and gradient boosting. By comparing these data, we can see that the gradient boosting algorithm performs the best among the three algorithms, the random forest comes in second, and the decision tree is the worst. This conforms to our expectation. It is worth mentioning that the gradient boosting and the random forest algorithm has a similar result in R<sup>2</sup> score but an obvious difference in accuracy. A reasonable explanation of this phenomenon is that we only have 50 trees in both two methods, if there are more trees, the difference will be more obvious.
 
 - Decision Tree:
 
