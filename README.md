@@ -6,7 +6,7 @@ Developing an model that can predict airline ticket prices between 16 airports i
 
 Using airport ATL to be an example:  
 
-![airlines.png](png/airlines.png)
+<img src="png/airlines.png" alt="airlines.png" width="600">
 
 ## Prerequisites
 The requirements are listed in requirement.txt. 
@@ -20,7 +20,7 @@ We use the dataset on kaggle: [Flight Prices](https://www.kaggle.com/datasets/di
 
 To clean and prepare the dataset for training and testing, we only keep the following 13 features, which are listed below with their correlation coefficients:
 
-![correlations.png](png/correlations.png)
+<img src="png/correlations.png" alt="correlations.png" width="600">
 
 After preparing the data, we randomly separate the dataset to training data and testing data with a ratio of 8 to 2.
 
@@ -37,8 +37,9 @@ First, these are the RMSE, R2 score and accuracy result of decision tree, random
 
 Second, here is a graph representing the distribution of actual and predicted total fare. We stack the graph of three results together to better observe the difference. In this graph, we can see that the distribution of the decision tree is more scattered than the other methods. The distribution of gradient boosting and random forest are slightly different, but better than the decision tree.
 
-![compare.png](png/compare.png)
+<img src="png/compare.png" alt="compare.png" width="600">
 
 Third, let’s consider an example case and compare the prediction to the actual result. In this case, we can observe that it is unusual that the random forest performs better than gradient boosting. The possible reason is the setting of hyper parameters, learning rate and subsamples. Since we aimed to maximize the training result, some of the single cases may exist like this, which is the satisfaction of the overall performance.
 
-![test.png](png/test.png)
+<img src="png/test.png" alt="test.png" width="600">
+
