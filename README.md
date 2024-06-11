@@ -20,7 +20,7 @@ We use the dataset on kaggle: [Flight Prices](https://www.kaggle.com/datasets/di
 
 To clean and prepare the dataset for training and testing, we only keep the following 13 features, which are listed below with their correlation coefficients:
 
-
+![correlations.png](png/correlations.png)
 
 After preparing the data, we randomly separate the dataset to training data and testing data with a ratio of 8 to 2.
 
