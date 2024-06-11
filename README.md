@@ -1,1 +1,1 @@
-# AI-Final-Project
+# Flight price prediction in the USA
